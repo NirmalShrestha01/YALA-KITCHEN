@@ -1,0 +1,214 @@
+.menu-banner{
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/menu-banner.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    .welcome-text{
+        top: 35%;
+    }
+
+    .welcome-slogan{
+        top: 46%;
+    }
+
+    .design{
+        top: 50%;
+    }
+
+
+}
+
+
+.main-menu{
+   text-align: center; 
+   position: relative;
+
+   .menuImg{
+       padding: 80px 0;
+   }
+
+   .col-12{
+       margin-bottom: 50px;
+   }
+
+   .ourstory-design{
+       display: block;
+       margin: auto;
+       width: 250px;
+       margin-top: -40px;
+       margin-bottom: 20px;
+       
+   }
+
+   h2{
+       color: #e2c050;
+       margin-bottom: 30px;
+   }
+
+
+   
+   ul{
+       text-align: left;
+       line-height: 2;
+       margin-left: 300px;
+       
+
+       li{
+           font-weight: bold;
+       }
+
+       hr{
+           max-width: 65%;
+       }
+   }
+
+   .detail{
+       font-size: 10px;
+       font-weight: normal;
+   }
+
+   span{
+       font-size: 15px;
+       margin-left: 178px;
+       margin-top: -25px;
+       display: flex;
+       align-items: center;
+       flex-direction:column;
+   }
+
+}
+
+@media (min-width:1600px){
+
+   .menu-banner{
+   
+    .welcome-text{
+        top: 25%;
+    }
+
+    .welcome-slogan{
+        top: 35%;
+    }
+
+    .design{
+        top: 38%;
+    }
+
+   }
+
+   .main-menu{
+
+        .menuImg{
+            display: block;
+            text-align: center;
+        }
+
+        ul{
+            margin-left: 285px;
+        }
+
+       
+   }    
+
+}
+
+@media (min-width:600px) and  (max-width:800px){
+
+.menu-banner{
+
+     .navbar-nav{
+      background-color: #141313;
+    }
+
+   
+    .welcome-text{
+        top: 23%;
+        font-size: 35px;
+        left: 51%;
+    }
+
+    .welcome-slogan{
+        top: 30%;
+        left: 51%;
+        font-size: 18px;
+    }
+
+    .design{
+        top: 33%;
+        left: 51%;
+        }
+
+    }
+
+     .main-menu{
+
+        .menuImg{
+            display: block;
+            text-align: center;
+        }
+
+        .row ul li{
+            width: 635px;
+        }
+
+        ul{
+            margin-left: 100px;
+        }
+
+        hr{
+            width: 100% !important;
+        }
+
+       
+   } 
+}
+
+@media (max-width:400px){
+
+    .menu-banner{
+
+        height: 425px;
+   
+        .welcome-text{
+            top: 23%;
+            font-size: 18px;
+            left: 50%;
+        }
+
+        .welcome-slogan{
+            top: 28%;
+            left: 50%;
+            font-size: 11px;
+        }
+
+        .design{
+            top: 30%;
+            left: 50%;
+            width: 100px;
+        }
+
+    }
+
+     .main-menu{
+
+        .row ul li{
+            width: 260px;
+        }
+
+        ul{
+            margin-left: 19px;
+        }
+
+        hr{
+            width: 500px;
+        }
+
+       
+   } 
+}
+
+

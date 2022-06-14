@@ -1,0 +1,36 @@
+.our-story{
+    margin: 50px 0;
+
+    h2{
+        font-size: 35px;
+         color: #ebd489;
+    }
+
+    .ourstory-design{
+        width: 180px;
+        margin-top: -10px;
+        margin-left: -5px;
+    }
+
+    p{
+        margin-top: 10px;
+        line-height: 2;
+        text-align: justify;
+        
+    }
+
+}
+
+.our-story img{
+    border-radius: 10px;
+}
+
+
+@media (max-width:800px){
+
+    .our-story{
+        text-align: center;
+    }
+
+
+}

@@ -1,0 +1,200 @@
+
+.gallery-banner{
+
+   background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/menu-banner.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    .welcome-text{
+        top: 35%;
+    }
+
+    .welcome-slogan{
+        top: 46%;
+    }
+
+    .design{
+        top: 50%;
+    }
+
+  
+}
+
+#container {
+  margin: auto;
+}
+
+.grid-item {
+    display: inline-block;
+    height: 340px;
+    overflow: hidden;
+    text-align: center;
+    width: 400px;
+    border-radius: 2px;
+}
+.grid-item img{
+	width:100%;
+  height:auto;
+}
+.grid-item img:hover{
+   transform: translateY(-10px);
+}
+.filters {
+	width: 50%;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top:50px;
+  margin: auto;
+	
+}
+
+.filters ul {
+	list-style: none;
+    padding: 20px 10px;
+    box-shadow: -1px 1px 11px rgba(0,0,0,.4);
+    margin: 0 40px;
+    border-radius: 30px;
+	background-color: #232323;
+}
+
+.filters li {
+	display: inline-block;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.filters li a{
+	color: #b6b6b6;
+	text-decoration: none;
+}
+.filters li a:hover{
+	color:#fff;
+}
+
+.filters li:hover {
+	box-shadow: -1px 1px 11px rgba(0,0,0,.4);
+	border-radius: 15px;
+}
+
+.filters li.active a{
+	color: #e3ca66;
+	border: 1px solid #e3ca66;
+	border-radius: 15px;
+	box-shadow: -1px 1px 11px rgba(0,0,0,.4);
+	padding: 5px 15px;
+	
+}
+
+
+@media (min-width:1600px){
+
+   .gallery-banner{
+   
+    .welcome-text{
+        top: 25%;
+    }
+
+    .welcome-slogan{
+        top: 35%;
+    }
+
+    .design{
+        top: 38%;
+    }
+
+   }
+
+   .main-menu{
+
+        .menuImg{
+            display: block;
+            text-align: center;
+        }
+
+        ul{
+            margin-left: 285px;
+        }
+
+       
+   }    
+
+}
+
+@media (min-width:600px) and  (max-width:800px){
+  .navbar-nav{
+      background-color: #141313;
+    }
+
+    .gallery-banner{
+
+        height: 425px;
+   
+        .welcome-text{
+           top: 21%;
+            font-size: 31px;
+            left: 50%;
+        }
+
+        .welcome-slogan{
+            top: 26%;
+            left: 50%;
+            font-size: 14px;
+        }
+
+        .design{
+            top: 28%;
+            left: 50%;
+            width: 100px;
+        }   
+
+}
+
+
+}
+
+@media (max-width:400px){
+
+    .navbar-nav{
+      background-color: #141313;
+    }
+
+    .gallery-banner{
+
+        height: 425px;
+        overflow: hidden;
+
+   
+        .welcome-text{
+           top: 23%;
+          font-size: 26px;
+          left: 52%;
+        }
+
+        .welcome-slogan{
+            top: 33%;
+            left: 50%;
+            font-size: 11px;
+        }
+
+        .design{
+            top: 35%;
+            left: 50%;
+            width: 100px;
+        }   
+
+}
+        .filters ul {
+            margin: 0 15px;
+        }
+
+        .grid-item {
+            width: 340px;
+      
+        }
+
+}
